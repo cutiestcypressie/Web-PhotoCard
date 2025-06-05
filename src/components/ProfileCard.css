@@ -12,19 +12,19 @@ body {
     background: linear-gradient(135deg, #a0522d, #7b3f00);
     width: 350px;
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
     text-align: center;
     padding: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card-container:hover {
-    transform: scale(1.09); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);  
+    transform: scale(1.09);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .header {
-    background-color: #f5f5dc;
+    background-color: #f4c08a;
     height: 120px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -42,7 +42,7 @@ body {
 }
 
 .bio {
-    color: #f5f5dc;
+    color: #fdf5e6;
 }
 
 .socmed button,
@@ -53,6 +53,8 @@ body {
     margin: 5px;
     border: none;
     transition: background 0.3s, transform 0.2s;
+    color: #5c3d26;
+    font-weight: bold;
 }
 
 .socmed button:hover,
@@ -72,7 +74,7 @@ body {
 
 .socmed img:hover {
     transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .social-links {
@@ -119,5 +121,5 @@ body {
 
 .stats i:hover {
     transform: scale(1.2);
-    color: #ffd700;
+    color: #ffc107;
 }

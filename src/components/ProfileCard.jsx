@@ -56,15 +56,15 @@ const ProfileCard = () => {
       <div className="stats">
         <div>
           <i className="fas fa-heart" style={{ fontSize: '25px' }}></i>
-          <p>600</p>
+          <p>143.7k</p>
         </div>
         <div>
           <i className="fas fa-comment" style={{ fontSize: '25px' }}></i>
-          <p>200</p>
+          <p>541.2k</p>
         </div>
         <div>
           <i className="fas fa-share" style={{ fontSize: '25px' }}></i>
-          <p>100</p>
+          <p>50k</p>
         </div>
       </div>
     </div>
