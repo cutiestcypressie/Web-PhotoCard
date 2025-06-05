@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #d2b48c, #8b5e3c, #5c3d26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    background: linear-gradient(135deg, #a0522d, #7b3f00);
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-container:hover {
+    transform: scale(1.09); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);  
+}
+
+.header {
+    background-color: #f5f5dc;
+    height: 120px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.avatar {
+    margin-top: -60px;
+}
+
+.avatar img {
+    object-fit: cover;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid #f5f5dc;
+}
+
+.bio {
+    color: #f5f5dc;
+}
+
+.socmed button,
+.card-container button {
+    background: #f5f5dc;
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.socmed button:hover,
+.card-container button:hover {
+    background: #e0c8a0;
+    transform: scale(1.05);
+}
+
+.socmed {
+    margin-top: 10px;
+}
+
+.socmed img {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.socmed img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.social-link {
+    font-size: 30px;
+    color: #f5f5dc;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-link:hover {
+    color: #e8c29a;
+    transform: scale(1.2);
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+    color: #f5f5dc;
+}
+
+.stats p {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.stats div {
+    display: flex;
+    flex-direction: column;
+}
+
+.stats i {
+    transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.stats i:hover {
+    transform: scale(1.2);
+    color: #ffd700;
+}
